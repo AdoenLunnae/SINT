@@ -23,7 +23,7 @@ public class Main {
         String n;
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         n = reader.readLine();
-        System.out.println("El factorial de " + n + " es: " + Operaciones.fact(Integer.parseInt(n)));
+        System.out.println("El factorial de " + n + " es: " + Operaciones.Factorial(Integer.parseInt(n)));
         
         System.out.println("Probando clase Profesor");
         Profesor p = new Profesor("UCO", 1234, "Paco", "García", 42);

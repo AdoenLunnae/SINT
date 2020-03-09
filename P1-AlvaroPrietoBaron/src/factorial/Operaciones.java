@@ -17,7 +17,7 @@ import java.io.IOException;
 public class Operaciones {
 
     
-    public static int fact(int n){
+    public static int Factorial(int n){
         int result = 1, i = 1;
         while(i <= n){
             result *= i;
