@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="examples" default="default" basedir=".">
-    <description>Builds, tests, and runs the project GUIFormExamples.</description>
+<project name="wheel" default="default" basedir=".">
+    <description>Custom component: Wheel that can be rotated with 2 buttons.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
